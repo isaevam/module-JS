@@ -2,10 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link media="all" rel="stylesheet" href="./styles/main.css">
+  <title>Catalog</title>
 </head>
 <body>
+  <div class="wrapper">
+<header>
+   <div>
+ <a><img class="logo" src="./images/logo.png" alt="logo"></a>
+ </div> 
+ <nav class="navigation">
+<a class="nav-item">Catalog</a>
+<a class="nav-item">About us</a>
+</nav>
+ <div class="cart">
+  <a href="./cart.html"><img class="shopping-cart-icon" src="./images/shopping-cart-icon.png"  alt="cart"></a>
+  <div class="counter-cart">0</div>
+ </div>
+ </header>  
+ <main>
+  <img class="loader" src="./images/loading-waiting.gif" alt="loader">
+  <div class="div-select">
+<div class="sort-by">
+<label class="label">Sort by:</label>
+<select class="select" id="select-sort">
+  <option value="Name">Name</option>
+  <option value="PriceLowToHigh">Price: Low to High</option>
+  <option value="PriceHighToLow">Price: High to Low</option>
+</select>
+  </div>
+  <div class="page-size">
+    <label class="label">Per page</label>
+    <select class="select" id="select-page-size">
+      <option value="6">6</option>
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+    </select>
+      </div>
+  </div>
+  <div class="catalog">
+<div class="catalog-header">
+<span class="catalog-header-item">Product name</span>
+<span class="catalog-header-item">Category</span>
+<span class="catalog-header-item">Brand</span>
+<span class="catalog-header-item">Price</span>
+</div>
+<div class="catalog-list">
+</div>
+</div>
+<div class="pagination">
   
+
+</div>
+ </main>
+  </div>
+  <script src="./main.js"></script>
 </body>
 </html>

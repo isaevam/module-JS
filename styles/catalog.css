@@ -1,0 +1,131 @@
+.loader {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+}
+.div-select {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.label {
+  height: 32px;
+  font-size: 18px;
+  text-align: center;
+}
+.select {
+  display: inline-block;
+  height: 42px;
+  font-size: 18px;
+  text-align: left;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  border-color: #929292;
+  border-width: 1px;
+  border-style: solid;
+}
+.catalog {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-header {
+  display: none;
+  align-items: center;
+  width: 1240px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.catalog-header-item {
+  width: 250px;
+  height: 32px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  margin-right: 50px;
+}
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-list-item {
+  display: flex;
+  align-items: center;
+  width: 1240px;
+  height: 48px;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0;
+  background: #f3f3f3;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+}
+.catalog-list-item-number {
+  width: 40px;
+  text-align: end;
+  margin-right: 20px;
+}
+.catalog-list-item-name {
+  width: 250px;
+  margin-right: 50px;
+}
+.catalog-list-item-category {
+  width: 250px;
+  margin-right: 50px;
+}
+.catalog-list-item-brand {
+  width: 200px;
+  margin-right: 100px;
+}
+.catalog-list-item-price {
+  width: 100px;
+  margin-right: 50px;
+}
+.catalog-list-item-button-buy {
+  width: 110px;
+  height: 36px;
+  margin-right: 20px;
+  background: #a8c6fa;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.catalog-list-item-button-in-cart {
+  width: 110px;
+  height: 36px;
+  margin-right: 20px;
+  background: #0844a4;
+  color: #ffffff;
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.pagination {
+  margin: 20px 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.pagination a {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 4px;
+  border-color: #929292;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 18px;
+  text-align: center;
+}
+.pagination a.active {
+  background: #a8c6fa;
+}
