@@ -97,35 +97,15 @@
   text-align: center;
 }
 .catalog-list-item-button-in-cart {
-  width: 110px;
+  /*width: 110px;
   height: 36px;
-  margin-right: 20px;
+  margin-right: 20px;*/
   background: #0844a4;
   color: #ffffff;
-  border-color: #000000;
+  /*border-color: #000000;
   border-width: 1px;
   border-style: solid;
   font-weight: bold;
   font-size: 14px;
-  text-align: center;
-}
-.pagination {
-  margin: 20px 0;
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.pagination a {
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  margin: 0 4px;
-  border-color: #929292;
-  border-width: 1px;
-  border-style: solid;
-  font-size: 18px;
-  text-align: center;
-}
-.pagination a.active {
-  background: #a8c6fa;
+  text-align: center;*/
 }

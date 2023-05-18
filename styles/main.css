@@ -1,6 +1,7 @@
 @import url("./header.css");
 @import url("./catalog.css");
 @import url("./cart.css");
+@import url("./pagination.css");
 body {
   margin: 0;
   padding: 0;
